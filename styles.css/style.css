@@ -1,0 +1,251 @@
+body{
+    scroll-behavior: smooth;
+    max-height: 1534px;
+    max-width:1500px;
+    margin:0;
+
+}
+
+.encabezado{
+    display:flex;
+    justify-content:space-between;
+}
+.encabezado-img{
+    width: 43px;
+    height:43px;
+    padding-left: 145px;
+}
+
+.nav-home,.nav-secundario{
+    display:inline-block;
+    text-decoration: none;
+    color:#202336;
+    font-size:19px;
+    flex-grow: 0.8;
+    padding-right: 35px;
+    padding-top: 10px;
+}
+.nav-secundario{
+    color:#B8BECD;
+}
+
+.articulo-principal{
+    display:inline-flex;
+    height:900px;
+    margin-top:50px;
+}
+
+.button-login,.button-register{
+    border: 2px solid;
+    border-color: #FB8F1D;
+    border-radius: 10px;
+    padding:11px 40px;
+}
+.button-login{
+    background-color:#fff;
+    color:#FB8F1D;
+    margin-right: 15px;
+}
+.button-register{
+    background-color:#FB8F1D;
+    color:#fff;
+    margin-right: 100px;
+}
+.encabezado-circle{
+    padding: 320px 60px;
+    width: 30px;
+    height:30px;
+}
+
+.contenedor{
+    padding:0;
+    margin:0;
+}
+
+.articulo-principal{
+    display:flex;
+    width: 1300px;
+}
+
+.articulo-principal-input{
+    padding:15px;
+    padding-right: 250px;
+    border: 1px solid #AFB0B9;
+    border-radius: 10px;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 20px;
+
+}
+.button-default{
+    background-color:#FB8F1D;
+    color:#fff;
+    margin-top: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding:15px 60px;
+    font-size: 20px;
+}
+
+.articulo-seccion-uno{
+    max-height: 600px;
+    max-width: 500px;
+}
+.articulo-seccion-dos-img{
+    width:690px;
+    height:690px;
+    padding-top:30px;
+    margin-left: 120px;
+}
+.articulo-seccion-dos-plus{
+    position: absolute;
+    left: 700px;
+    width:25px;
+    height:25px;
+}
+
+
+.articulo-segundo{
+    display:flex;
+    padding:100px;
+    max-width: 1500px;
+}
+.articulo-segundo-imagen{
+    width:659px;
+    height:534px;
+}
+.articulo-segundo-plus{
+    width:25px;
+    height:25px;
+    padding:40px;
+}
+.articulo-segundo-contenido{
+    padding:50px;
+}
+
+.articulo-segundo-contenido>.button-default{
+    padding:15px 50px;
+}
+.articulo-segundo-parrafo{
+    font-size:20px;
+    color:#7D7987;
+}
+
+.articulo-tercero-contenedor{
+    display:flex;
+    justify-content:space-between;
+    max-width: 1300px;
+}
+
+.articulo-tercero-imagen{
+    width:290px;
+    height:350px;
+    margin:20px;
+}
+.articulo-tercero-carta{
+    background-image: url(/assets/images/antartida.png);
+    background-size:500px 300px;
+    width:300px;
+    height:300px;
+    margin:15px;
+}
+div>h3{
+    display:flex;
+    height:30px;
+    width:100px;
+    background-color: #fff;
+}
+
+.articulo-cuarto{
+    max-width:1500px;
+    max-height: 1000px;
+    margin:50px 130px 200px 220px;
+}
+.seccion-cuarto-articulo {
+    float: left;
+    max-width: 800px;
+    padding-top:90px;
+
+}
+
+.seccion-cuarto-articulo > p{
+    padding-right: 50px;
+    margin:8px;
+    color:#AEABB4;
+}
+.imagen3{
+    margin:0;
+    padding:0;
+
+}
+
+.testimonials{
+    max-width: 1500px;
+    max-height: 600px;
+    padding-left: 160px;
+}
+
+.div-testimonials{
+    float:left;
+    max-width: 500px;
+    padding-top:90px;
+    margin-right: 220px;
+}
+
+.div-testimonials>p{
+    font-size:25px;
+    margin:2px;
+}
+.testimonials > img{
+    padding-top:10px;
+}
+
+footer{
+    padding-left: 120px;
+    padding-top:100px;
+    background-color:#F9F9FB;
+}
+
+.footer-uno{
+    display:flex;
+    flex-direction: block;
+    padding-bottom:0;
+}
+
+.footer-descripcion{
+    margin-right: 250px;
+    color:#AEABB4;
+}
+.footer-destinations{
+    height:200px;
+    width:400px;
+    color:#AEABB4;
+
+}
+
+.footer-shop{
+    height:200px;
+    width:400px;
+    color:#AEABB4;
+
+}
+
+.footer-interests{
+    height:200px;
+    width:400px;
+    color:#AEABB4;
+
+}
+
+a >img{
+    width:20px;
+    height:20px;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+}
+.icons{
+    margin-right:10px;
+    margin-left: 10px;
+}
