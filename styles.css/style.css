@@ -131,6 +131,17 @@ body{
     color:#7D7987;
 }
 
+.articulo-tercero-contenido{
+    padding-left: 165px;
+    padding-right:210px;
+    display:flex;
+    justify-content:space-between;
+    max-width: 1300px;
+}
+.articulo-tercero-contenido>a{
+    color:#FB8F1D;
+    font-size: 17px;
+}
 .articulo-tercero-contenedor{
     display:flex;
     justify-content:space-between;
