@@ -1,0 +1,36 @@
+main{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.circle{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primer-articulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.primer-articulo-seccion-uno{
+    width: 50%;
+}
+
+.segundo-articulo-seccion-dos{
+    width: 50%;
+}
+.segundo-articulo{
+    display: flex;
+}
+.tercer-articulo{
+    display: flex;
+}
+.cuarto-articulo{
+    display: flex;
+}
